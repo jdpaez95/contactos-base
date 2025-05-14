@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guardias de Contacto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Guardias de Contacto</h1>
+    <p>Fecha de última actualización: <span id="last-updated">---</span></p>
+
+    <div id="login-section">
+      <input type="password" id="password" placeholder="Contraseña para editar" />
+      <button onclick="login()">Ingresar</button>
+    </div>
+
+    <div id="content"></div>
+    <button id="save-btn" style="display:none" onclick="saveChanges()">Guardar Cambios</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
